@@ -32,4 +32,5 @@ saludandome5(miApellido = 'Moros', miNombre = 'Andres')
 def saludo(person = 'Todos'): #Funcion con variable definida por defecto
     print(f'Hola {person}')
 
-saludo('Jersson')
+saludo('Andres')
+
