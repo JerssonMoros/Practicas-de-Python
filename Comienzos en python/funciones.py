@@ -34,3 +34,19 @@ def saludo(person = 'Todos'): #Funcion con variable definida por defecto
 
 saludo('Andres')
 
+def concatenaLista(lista):
+    i = ''
+    for e in lista:
+        i += e + ' '
+    return i
+
+print(concatenaLista(['Hola', 'Mundo']))
+
+def recursion(val):
+    if(val < 1):
+        return val
+    print(val)
+    recursion(val-1)
+
+recursion(8)
+    
