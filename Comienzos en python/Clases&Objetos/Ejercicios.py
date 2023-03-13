@@ -5,7 +5,8 @@ class Persona():
         self.dni = dni
 
     def mostrar(self):
-        print(f'Nombre: {self.nombre}, \n Edad: {self.edad}, \n DNI: {self.dni}')
+        datos = 'Nombre: {}, \n Edad: {}, \n DNI: {}'
+        print(datos.format(self.nombre, self.edad, self.dni))
 
     def esMayorDeEdad(self):
         return True if self.edad else False
